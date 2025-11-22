@@ -52,6 +52,9 @@ linters:
           - staticcheck
         text: 'ST1019'
         path: 'support/util/util_test\.go$'
+      - linters:
+          - staticcheck
+        text: 'QF1008'
     paths:
       - third_party$
       - builtin$
